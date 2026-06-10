@@ -10,7 +10,7 @@ from visit_count_pb2 import Info
 
 app = Flask(__name__)
 
-JWT_API_URL = "https://aaall-api.vercel.app/token"
+JWT_API_URL = "https://all-apii.onrender.com/token"
 TOKEN_FILE = "tokens.json"
 TOKEN_EXPIRY = 7 * 60 * 60  # 7 hours
 
